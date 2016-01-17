@@ -189,7 +189,7 @@ Here you created a **rule** that says:
 
 Now that we have our first stylesheet, we can tell the html document we created to use that stylesheet to tell the browser what the page should look like.
 
-1. Add the following line in your **index.html** file underneath the **<title> **tag:	
+1. Add the following line in your **index.html** file underneath the  tag:	
 
 ![image alt text](image_9.png)
 

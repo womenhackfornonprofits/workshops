@@ -1,8 +1,6 @@
 Workshop Plan
 
-"Create a Simple Website in CSS/HTML and deploy to Amazon S3"
-
-[[TOC]]
+#Create a Simple Website in CSS/HTML and deploy to Amazon S3
 
 ## 1. What is HTML?
 
@@ -22,17 +20,17 @@ We will create a very basic HTML page that will load and simply display "Hello W
 
 1. The **DOCTYPE** is a declaration and tells the browser which *'language'* we are talking in so it knows how to render it.
 
-2. The text between **<html>** and **</html>** describes an HTML document
+2. The text between **&lt;html&gt;** and **&lg;/html&gt;** describes an HTML document
 
-3. The text between **<head>** and **</head>** provides information about the document
+3. The text between **&lt;head&gt;** and **&lt;/head&gt;** provides information about the document
 
-4. The text between **<title>** and **</title>** provides a title for the document
+4. The text between **&lt;title&gt;** and **&lt;/title&gt;** provides a title for the document
 
-5. The text between **<body>** and **</body>** describes the visible page content
+5. The text between **&lt;body&gt;** and **&lt;/body&gt;** describes the visible page content
 
-6. The text between **<h1>** and **</h1>** describes a heading
+6. The text between **&lt;h1&gt;** and **&lt;/h1&gt;** describes a heading
 
-7. The text between **<p>** and **</p>** describes a paragraph
+7. The text between **&lt;p&gt;** and **&lt;/p&gt;** describes a paragraph
 
 ## 3. Create a Simple HTML Page
 
@@ -72,7 +70,7 @@ We can add more to the page at this stage or later, here is a list of html and n
 
     3. More info - [http://www.htmldog.com/references/html/tags/img/](http://www.htmldog.com/references/html/tags/img/)
 
-2. Add a **link <a> **to your favourite website:
+2. Add a **link &lt;a&gt; **to your favourite website:
 
     4. Type out the following and modify it to link to point  your favourite website:
 
@@ -80,7 +78,7 @@ We can add more to the page at this stage or later, here is a list of html and n
 
     5. More info - [http://www.w3schools.com/html/html_links.asp](http://www.w3schools.com/html/html_links.asp)
 
-3. Add a **footer <footer> **(these usually sit at the bottom of the page, but sometimes have to be styled to stay at the bottom if there is not enough content to fill the page):
+3. Add a **footer &lt;footer&gt; **(these usually sit at the bottom of the page, but sometimes have to be styled to stay at the bottom if there is not enough content to fill the page):
 
     6. Type out the following and modify it to say anything you want:
 
@@ -100,9 +98,9 @@ We can add more to the page at this stage or later, here is a list of html and n
 
 5. Add an **unordered list** of 3 things you love (use previous examples to get the format right):
 
-    11. Unordered list is started using the tag **<ul> **and** **closed using **</ul>**
+    11. Unordered list is started using the tag **&lt;ul&gt; **and** **closed using **&lt;/ul&gt;**
 
-    12. Within the list declaration mentioned above you can add in list items, these are defined by: **<li> </li>**
+    12. Within the list declaration mentioned above you can add in list items, these are defined by: **&lt;li&gt; &lt;/li&gt;**
 
     13. You can have as many list items in the unordered list as you want
 
@@ -189,7 +187,7 @@ Here you created a **rule** that says:
 
 Now that we have our first stylesheet, we can tell the html document we created to use that stylesheet to tell the browser what the page should look like.
 
-1. Add the following line in your **index.html** file underneath the  tag:	
+1. Add the following line in your **index.html** file underneath the *_title_* tag:	
 
 ![image alt text](image_9.png)
 
